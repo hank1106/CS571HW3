@@ -1,0 +1,52 @@
+.blackbox {
+	width:450px;
+	height:215px;
+	background-color:black; 
+	color:white;
+	margin: 0 auto;
+	margin-top:50px;
+	padding-top:65px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+.innerbox{
+	width:350px;
+	height:150px;
+	background-color:black; 
+	margin: 0 auto;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#parent {
+	margin-top:25px;
+    overflow: hidden;
+    border-top: 1px solid white;
+}
+.innerboxtext1{
+	padding-left: 60px;
+	margin-right:-70px;
+	padding-top:11px;
+	float: left;
+	text-decoration: underline;
+	font-size: 70px;
+}
+.innerboxtext2{
+	overflow: hidden;
+	font-size: 120px;
+}
+
+.nextbox {
+	width:450px;
+	height:215px;
+	background-color:black; 
+	color:white;
+	margin: 0 auto;
+	margin-top:50px;
+	padding-top:65px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
