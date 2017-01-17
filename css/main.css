@@ -1,7 +1,8 @@
 body {
     background-image: url("../asset/sayhello.png");
     background-repeat: no-repeat;
-    background-position: 50% 130%/*10px 380px*/;
+    background-position: 50% 41%/*10px 380px*/;
+    margin: 0;
 }
 .blackbox {
 	width:450px;
@@ -38,13 +39,14 @@ body {
 	text-decoration: underline;
 	font-size: 70px;
 }
-#parent a{
-	text-decoration: none;
-	color:white;
-}
 .innerboxtext2{
 	overflow: hidden;
 	font-size: 120px;
+}
+
+#parent a{
+	text-decoration: none;
+	color:white;
 }
 
 .nextbox {
@@ -94,4 +96,74 @@ body {
 	font-size:15px;
 	padding-top:20px;
 	padding-bottom: 20px;
+}
+.footer{
+	margin-top:110px;
+	width:100%;
+	height:520px;
+	background-color: black;
+}
+.footer_div_1{
+    width:37%;
+    min-width: 200px;
+    height:190px;
+    margin-top:20px;
+    border-right: 1px solid #666666;
+    border-bottom:1px solid #666666;
+    float:left;
+    color:white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#bfbfbf;
+}
+
+.footer_div_2{
+    width:62.5%;
+    height:190px;
+    min-width: 300px;
+    margin-top:20px;
+    border-bottom:1px solid #666666;
+    float:left;
+    color:white;
+}
+.inner_footer_div_2{
+	margin-top:45px;
+	min-width: 700px;
+	width:90%;
+	height:120px;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.signuptitle{
+	margin-left:70px;
+	color:#A99A18;
+	margin-bottom: 10px;
+
+}
+.inputdiv{
+	float: left;
+	margin-left:70px;
+	margin-right: 6px;
+}
+.signup{
+	margin-top: 17px;
+	overflow: hidden;
+	background-color: black;
+	width:220px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	border:3px solid white;
+	color:#bfbfbf;
+	font-size:13px;
+}
+
+input[type=text] {
+    width: 355px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:16px;
 }
