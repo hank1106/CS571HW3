@@ -156,6 +156,10 @@ body {
 	margin-bottom: 10px;
 
 }
+.signup:hover{
+	background-color: white;
+	color:black;
+}
 .inputdiv{
 	float: left;
 	margin-left:70px;
