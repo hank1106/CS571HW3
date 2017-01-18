@@ -116,6 +116,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size:14px;
     color:#bfbfbf;
+    margin-bottom: 10px;
 }
 
 .footer_div_2{
@@ -166,4 +167,55 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     font-size:16px;
+}
+table, th, td {
+   color:#bfbfbf;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:14px;
+}
+td{
+	padding-left:28px;
+}
+.column1{
+	width:19%;
+	min-width:200px;
+}
+.column2{
+	width:14.5%;
+	min-width:150px;
+}
+.column3{
+	width:19%;
+	min-width:150px;
+}
+.column4{
+	width:17.5%;
+	min-width:200px;
+}
+.column5{
+	width:22.5%;
+	min-width:250px;
+}
+.tabletitle{
+	color:#A99A18;
+	font-size:16px;
+	padding-bottom: 28px;
+}
+.cityname{
+	padding-bottom: 28px;
+}
+.contactinfo{
+	padding-top: 42px;
+}
+.contactusbutton{
+	width:180px;
+	border:3px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size:10px;
+}
+span.yellowtext {color:#A99A18}
+.footer a{
+	color:#bfbfbf;
 }
