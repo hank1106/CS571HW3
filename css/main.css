@@ -1,7 +1,4 @@
 body {
-    background-image: url("../asset/sayhello.png");
-    background-repeat: no-repeat;
-    background-position: 50% 41%/*10px 380px*/;
     margin: 0;
 }
 
@@ -123,6 +120,15 @@ body {
     color:#bfbfbf;
     margin-bottom: 10px;
 }
+.hello{
+	display: inline-block;
+	position: absolute;
+	height:180px;
+}
+#rectangular {
+  -webkit-clip-path: inset(10px 300px 280px 260px);
+  clip-path: inset(10px 300px 280px 260px);
+}
 .readarticleslink{
 	margin-top:80px;
 }
@@ -236,7 +242,9 @@ td{
 	background-color: white;
 	color:black;
 }
-span.yellowtext {color:#A99A18}
+span.yellowtext {
+	color:#A99A18
+}
 .footer a{
 	color:#bfbfbf;
 }
