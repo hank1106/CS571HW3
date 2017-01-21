@@ -248,3 +248,19 @@ span.yellowtext {
 .footer a{
 	color:#bfbfbf;
 }
+.outer{
+	width:100%;
+	text-align: center;
+}
+.crop{
+	width:90%;
+	height:130px;
+	overflow:hidden;
+	margin-left:25%;
+
+}
+.crop img{
+	width: 1100px;
+	height:400px;
+	margin:5px 0 0 -150px;
+}
