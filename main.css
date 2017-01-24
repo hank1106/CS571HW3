@@ -265,3 +265,7 @@ span.yellowtext {
 .crop img{
 	width:1100px;
 }
+
+table a:hover{
+	text-decoration: none;
+}
